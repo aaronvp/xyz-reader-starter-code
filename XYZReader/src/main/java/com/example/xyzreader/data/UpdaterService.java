@@ -23,10 +23,8 @@ import java.util.ArrayList;
 public class UpdaterService extends IntentService {
     private static final String TAG = "UpdaterService";
 
-    public static final String BROADCAST_ACTION_STATE_CHANGE
-            = "com.example.xyzreader.intent.action.STATE_CHANGE";
-    public static final String EXTRA_REFRESHING
-            = "com.example.xyzreader.intent.extra.REFRESHING";
+    public static final String BROADCAST_ACTION_STATE_CHANGE = "com.example.xyzreader.intent.action.STATE_CHANGE";
+    public static final String EXTRA_REFRESHING = "com.example.xyzreader.intent.extra.REFRESHING";
 
     public UpdaterService() {
         super(TAG);
@@ -43,11 +41,10 @@ public class UpdaterService extends IntentService {
             return;
         }
 
-        sendStickyBroadcast(
-                new Intent(BROADCAST_ACTION_STATE_CHANGE).putExtra(EXTRA_REFRESHING, true));
+        sendStickyBroadcast(new Intent(BROADCAST_ACTION_STATE_CHANGE).putExtra(EXTRA_REFRESHING, true));
 
         // Don't even inspect the intent, we only do one thing, and that's fetch content.
-        ArrayList<ContentProviderOperation> cpo = new ArrayList<ContentProviderOperation>();
+        ArrayList<ContentProviderOperation> cpo = new ArrayList<>();
 
         Uri dirUri = ItemsContract.Items.buildDirUri();
 
