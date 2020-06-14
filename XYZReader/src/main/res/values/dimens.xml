@@ -1,4 +1,11 @@
 <resources>
+
+    <dimen name="app_bar_elevation">4dp</dimen>
+    <dimen name="app_bar_image_height">340dp</dimen>
+
+    <dimen name="card_elevation">8dp</dimen>
+    <dimen name="card_layout_margin">4dp</dimen>
+
     <!-- detail -->
     <dimen name="detail_title_text_size">32sp</dimen>
     <dimen name="detail_body_text_size">22sp</dimen>
