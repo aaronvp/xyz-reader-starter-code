@@ -33,6 +33,8 @@
             android:paddingRight="16dp"
             android:paddingBottom="4dp"
             android:textColor="@color/heading_text"
+            android:autoSizeTextType="uniform"
+            android:textSize="@dimen/list_heading_text_size"
             android:ellipsize="end"
             android:maxLines="4" />
 
@@ -44,6 +46,7 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
             android:paddingBottom="16dp"
+            android:textSize="@dimen/list_subtitle_text_size"
             android:textColor="@color/subtitle_text"
             android:maxLines="2"
             android:ellipsize="end" />

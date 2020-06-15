@@ -1,18 +1,23 @@
 <resources>
 
     <dimen name="app_bar_elevation">4dp</dimen>
-    <dimen name="app_bar_image_height">340dp</dimen>
+    <dimen name="app_bar_height">256dp</dimen>
 
     <dimen name="card_elevation">8dp</dimen>
     <dimen name="card_layout_margin">4dp</dimen>
 
+    <dimen name="list_heading_text_size">24sp</dimen>
+    <dimen name="list_subtitle_text_size">16sp</dimen>
+
     <!-- detail -->
     <dimen name="detail_title_text_size">32sp</dimen>
     <dimen name="detail_body_text_size">22sp</dimen>
-    <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.25</item>
+    <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.5</item>
+    <dimen name="detail_toolbar_layout_height">56dp</dimen>
+    <dimen name="detail_toolbar_margin_top">24dp</dimen>
 
-    <dimen name="fab_elevation">2dp</dimen>
-    <dimen name="fab_press_translation_z">6dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
+    <dimen name="fab_press_translation_z">12dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
 
 </resources>

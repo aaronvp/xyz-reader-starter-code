@@ -70,7 +70,7 @@
                     android:layout_height="wrap_content"
                     android:paddingBottom="@dimen/detail_metabar_title_bottom_padding"
                     android:fontFamily="sans-serif"
-                    android:textColor="@color/heading_text"
+                    android:textColor="#fff"
                     android:textStyle="bold"
                     android:textSize="@dimen/detail_title_text_size"/>
 
@@ -80,7 +80,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
-                    android:textColor="@color/subtitle_text"/>
+                    android:textColor="#8fff" />
 
             </LinearLayout>
 
